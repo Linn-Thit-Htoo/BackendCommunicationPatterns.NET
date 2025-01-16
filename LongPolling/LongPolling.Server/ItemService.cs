@@ -20,7 +20,7 @@ public class ItemService
         // Simulate some delay in Item arrival
         Task.Run(async () =>
         {
-            await Task.Delay(TimeSpan.FromSeconds(Random.Shared.Next(0, 29)));
+            await Task.Delay(TimeSpan.FromSeconds(15));
             NotifyNewItemAvailable();
         });
         

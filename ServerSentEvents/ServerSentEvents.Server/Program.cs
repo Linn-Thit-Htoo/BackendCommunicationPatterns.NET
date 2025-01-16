@@ -15,7 +15,7 @@ app.UseCors("AllowAnyOrigin");
 
 app.MapGet("/", async (CancellationToken ct, ItemService service, HttpContext ctx) =>
 {
-    ctx.Response.Headers.Add("Content-Type", "text/event-stream");
+    ctx.Response.Headers.Append("Content-Type", "text/event-stream");
     
     while (!ct.IsCancellationRequested)
     {
