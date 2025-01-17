@@ -1,51 +1,55 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-#
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gRPC", "gRPC", "{5E149530-7D0B-4092-8E2B-F8799992110B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RequestResponse", "RequestResponse", "{E0C99794-1CC2-453D-B094-74397A1FBE79}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTTP", "HTTP", "{1BB06971-3C5C-4BB0-891C-412AC8E489D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpc.Client", "RequestResponse\gRPC\Grpc.Client\Grpc.Client.csproj", "{73018153-FEBB-4AC2-ABE3-9F4200518FE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grpc.Client", "RequestResponse\gRPC\Grpc.Client\Grpc.Client.csproj", "{73018153-FEBB-4AC2-ABE3-9F4200518FE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpc.Server", "RequestResponse\gRPC\Grpc.Server\Grpc.Server.csproj", "{904167FC-2331-403B-8FE0-CCCC250939D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grpc.Server", "RequestResponse\gRPC\Grpc.Server\Grpc.Server.csproj", "{904167FC-2331-403B-8FE0-CCCC250939D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Http.Client", "RequestResponse\HTTP\Http.Client\Http.Client.csproj", "{AC3D4A29-5F8F-4B96-82B3-B5492C95B22C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Http.Client", "RequestResponse\HTTP\Http.Client\Http.Client.csproj", "{AC3D4A29-5F8F-4B96-82B3-B5492C95B22C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Http.Server", "RequestResponse\HTTP\Http.Server\Http.Server.csproj", "{6A512447-AAAC-4337-A7F9-657754168BA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Http.Server", "RequestResponse\HTTP\Http.Server\Http.Server.csproj", "{6A512447-AAAC-4337-A7F9-657754168BA7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishSubscribe", "PublishSubscribe", "{A58E46E2-8EA6-410D-8740-172A47B10AFF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Webhook", "Webhook", "{707D8326-54F7-42A0-92C8-F710872D3EC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Server", "PublishSubscribe\Webhook\Webhook.Server\Webhook.Server.csproj", "{315A12BA-F1F5-4A26-A12A-567B521539DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webhook.Server", "PublishSubscribe\Webhook\Webhook.Server\Webhook.Server.csproj", "{315A12BA-F1F5-4A26-A12A-567B521539DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Client", "PublishSubscribe\Webhook\Webhook.Client\Webhook.Client.csproj", "{CBB4F72C-A258-4FE3-B5AA-08E8A4237C4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webhook.Client", "PublishSubscribe\Webhook\Webhook.Client\Webhook.Client.csproj", "{CBB4F72C-A258-4FE3-B5AA-08E8A4237C4B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessageBroker", "MessageBroker", "{86F183F6-F778-42BE-A4F1-19BB8FB02453}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBroker.Consumer", "PublishSubscribe\MessageBroker\MessageBroker.Consumer\MessageBroker.Consumer.csproj", "{3C5D100B-366F-4439-9D1F-8ABE01730CE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBroker.Consumer", "PublishSubscribe\MessageBroker\MessageBroker.Consumer\MessageBroker.Consumer.csproj", "{3C5D100B-366F-4439-9D1F-8ABE01730CE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBroker.Contracts", "PublishSubscribe\MessageBroker\MessageBroker.Contracts\MessageBroker.Contracts.csproj", "{462CE59B-4EEE-4988-9CEC-D9D6E2976CF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBroker.Contracts", "PublishSubscribe\MessageBroker\MessageBroker.Contracts\MessageBroker.Contracts.csproj", "{462CE59B-4EEE-4988-9CEC-D9D6E2976CF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBroker.Producer", "PublishSubscribe\MessageBroker\MessageBroker.Producer\MessageBroker.Producer.csproj", "{4A467A5B-3BE3-496D-A590-C023FA440617}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBroker.Producer", "PublishSubscribe\MessageBroker\MessageBroker.Producer\MessageBroker.Producer.csproj", "{4A467A5B-3BE3-496D-A590-C023FA440617}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LongPolling", "LongPolling", "{89F63F4F-4DA3-49EA-AE49-26A298CA1AD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongPolling.Server", "LongPolling\LongPolling.Server\LongPolling.Server.csproj", "{CA69016B-9E1C-462A-A2EF-B4FED0CE5573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongPolling.Server", "LongPolling\LongPolling.Server\LongPolling.Server.csproj", "{CA69016B-9E1C-462A-A2EF-B4FED0CE5573}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerSentEvents", "ServerSentEvents", "{DF6484FD-32AA-4999-A636-6DD2D749CA3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerSentEvents.Server", "ServerSentEvents\ServerSentEvents.Server\ServerSentEvents.Server.csproj", "{2BB9F599-C943-49B5-AF78-EF9D4791D033}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerSentEvents.Server", "ServerSentEvents\ServerSentEvents.Server\ServerSentEvents.Server.csproj", "{2BB9F599-C943-49B5-AF78-EF9D4791D033}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSocket", "WebSocket", "{1C51E822-778D-40EA-AF8F-C41667AB50CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocket.Server", "WebSocket\WebSocket.Server\WebSocket.Server.csproj", "{A547BBFB-5F5B-4914-9AC5-36077A72B242}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocket.Server", "WebSocket\WebSocket.Server\WebSocket.Server.csproj", "{A547BBFB-5F5B-4914-9AC5-36077A72B242}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignalR", "SignalR", "{3D85D54A-C91C-465B-A07D-D26C4BFE2757}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Server", "SignalR\SignalR.Server\SignalR.Server.csproj", "{986D63FA-93CF-46BA-96CF-E927A3B31BD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR.Server", "SignalR\SignalR.Server\SignalR.Server.csproj", "{986D63FA-93CF-46BA-96CF-E927A3B31BD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongPolling.HttpClient", "LongPolling.HttpClient\LongPolling.HttpClient.csproj", "{F4A0F8C8-997B-4BB6-9B32-11395697EA91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,13 @@ Global
 		{986D63FA-93CF-46BA-96CF-E927A3B31BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{986D63FA-93CF-46BA-96CF-E927A3B31BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{986D63FA-93CF-46BA-96CF-E927A3B31BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A0F8C8-997B-4BB6-9B32-11395697EA91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A0F8C8-997B-4BB6-9B32-11395697EA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A0F8C8-997B-4BB6-9B32-11395697EA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A0F8C8-997B-4BB6-9B32-11395697EA91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5E149530-7D0B-4092-8E2B-F8799992110B} = {E0C99794-1CC2-453D-B094-74397A1FBE79}
@@ -124,5 +135,6 @@ Global
 		{2BB9F599-C943-49B5-AF78-EF9D4791D033} = {DF6484FD-32AA-4999-A636-6DD2D749CA3E}
 		{A547BBFB-5F5B-4914-9AC5-36077A72B242} = {1C51E822-778D-40EA-AF8F-C41667AB50CC}
 		{986D63FA-93CF-46BA-96CF-E927A3B31BD8} = {3D85D54A-C91C-465B-A07D-D26C4BFE2757}
+		{F4A0F8C8-997B-4BB6-9B32-11395697EA91} = {89F63F4F-4DA3-49EA-AE49-26A298CA1AD8}
 	EndGlobalSection
 EndGlobal
